@@ -8,14 +8,14 @@ espeak
 vlc
 
 
-Benötigter Key
+Benötigter Key:
 
 Google Speech-Api Key
 
 
 Installation:
 
-apt-get install espaek vlc
+$ apt-get install espaek vlc
 
 
 Lade das Projekt herunter
@@ -29,6 +29,8 @@ http://www.voxforge.org/home/downloads
 http://www.repository.voxforge1.org/downloads/Main/Tags/Releases/0.9.0/Julius-4.3.1-Quickstart-Linux_(0.9.0).tgz
 
 Entpacke die Dateien und ziehe die Projektdateien in den Quickstart Ordner.
+
+In der Datei stt.sh den Api Key eintragen.
 
 Gehe mit dem Terminal in den Ordner und starte es mit:
 
