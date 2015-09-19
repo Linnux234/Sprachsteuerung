@@ -1,0 +1,18 @@
+0.1
+
+Bei der Dateisuche von "grep" auf "find" umgestiegen
+Verwendet zum Media abspielen "(c)vlc"
+IF-Schleifen verkürtzt
+Neue Befehle/Aktionen hinzugefügt
+
+
+0.2
+
+If-Schleifen weiter verkürtzt
+Neue Befehle/Aktionen hinzugefügt
+IF-Schleifen übersichtlicher gemacht
+
+
+0.2.1
+
+Fehler behoben das "cvlc" nicht beendet wurde wenn man die Oberfläche von vlc geschlossen hat
