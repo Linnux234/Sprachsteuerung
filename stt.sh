@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo “Recording…”
-arecord -d 5 -f dat -t wav | ffmpeg -y -i - -ar 16000 -acodec flac file.flac
+arecord -d 5 -f dat -t wav | avconv -y -i - -ar 16000 -acodec flac file.flac
 
 echo “Processing…”
 
