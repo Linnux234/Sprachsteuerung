@@ -20,7 +20,7 @@ $ apt-get install espaek vlc
 
 Lade das Projekt herunter
 
-https://github.com/Linnux234/Sprachsteuerung
+$ git clone https://github.com/Linnux234/Sprachsteuerung
 
 
 Lade dir Quickstart Julius von VoxForge herunter.
