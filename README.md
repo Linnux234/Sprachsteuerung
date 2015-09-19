@@ -7,9 +7,6 @@ espeak
 
 vlc
 
-ffmpeg/avconv (
-
-
 
 Benötigter Key
 
