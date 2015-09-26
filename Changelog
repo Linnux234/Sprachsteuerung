@@ -16,3 +16,10 @@ IF-Schleifen übersichtlicher gemacht
 0.2.1
 
 Fehler behoben das "cvlc" nicht beendet wurde wenn man die Oberfläche von vlc geschlossen hat
+
+
+
+0.3
+Video und Musik können jetzt per Befehl beendet werden
+Neustarten nicht mehr nötig
+Benötig root/sudo rechte
