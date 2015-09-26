@@ -1,9 +1,20 @@
 #!/bin/bash
 
+
+
 #Suche nach Schlüsselwort, wenn gefunden
 if grep -o "Musik" stt.txt  || grep -o "Music" stt.txt
- 
-then 
+
+then
+	#Wenn Stop
+	if grep -o "Musik stop" stt.txt  || grep -o "Music stop" stt.txt	
+
+	then
+		#Beendet vlc und das script
+		killall vlc
+		exit 1
+	fi	 
+
 	#Bestätigung per Audio
 	espeak -vde "Musik"
 	#Suche nach Dateien im Ordner die, die Wörter nach dem Schlüsselwort in der Datei stt.txt enthalten und schreibt den ersten Treffer in die 		Datei datei.txt
@@ -26,8 +37,16 @@ fi
 
 
 if grep -o "video" stt.txt  || grep -o "Video" stt.txt
+
+then
+
+	if grep -o "video stop" stt.txt  || grep -o "Video stop" stt.txt	
+
+	then
+		killall vlc
+		exit 1
+	fi	  
  
-then 
 	espeak -vde "Video"
 	find ~/Videos/ -name "*$(cat stt.txt | cut -c 7- | sed '1d' | sed -e 's/  */*/g')*" | head -1> datei.txt
 
@@ -35,7 +54,7 @@ then
 
 		then
 
-		nohup cvlc --play-and-exit -f "$(cat datei.txt)" &
+		nohup vlc --play-and-exit -f "$(cat datei.txt)" &
 		else
 		espeak -vde "nicht gefunden"
 	fi
