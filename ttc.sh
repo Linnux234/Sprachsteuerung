@@ -111,9 +111,3 @@ then
 	espeak -ven "Steam"
 	nohup steam &
 fi
-
-
-
-
-
-exit 1
