@@ -9,8 +9,8 @@ then
 	espeak -vde hallo
 	 ./stt.sh
 	./ttc.sh
-	sudo killall julius
-	exit 1
+	> voice.txt
+	
 fi
 done
 exit 1
