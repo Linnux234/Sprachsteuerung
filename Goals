@@ -2,9 +2,11 @@ Ziele fürs Projekt
 
 
 -- Programm soll nicht neugestartet werden müssen
--- Mit anderen Platformen kombatibel werden (Raspberry Pi, Ubuntu Phone....)
+-- Mit anderen Platformen kombatibel (Raspberry Pi, Ubuntu Phone....)
 -- Viele neue Funktionen
 -- Schneller werden
 -- Google Speech-Api ersetzen
 -- Als App verfügbar machen (Ubuntu Phone)
 -- Projekt dateien zusammenfassen (start.sh, stt.sh, ttc.sh) (erst später)
+-- Log
+
