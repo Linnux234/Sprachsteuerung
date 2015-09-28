@@ -36,3 +36,9 @@ Gehe mit dem Terminal in den Ordner und starte es mit:
 
 $ ./start.sh
 
+
+
+Benutzung:
+
+Spreche den Namen Steve aus, das Programm sollte sich dann mit "Hallo" melden.
+Nun kannst du in 4 Sekunden einen Befehl geben, wie Zum Beispiel "Video" um ein Video abzuspielen und danach teile des Namens des Videos. Und das Programm such dann nach dem Video und spielt es ab.
